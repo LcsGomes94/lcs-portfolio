@@ -4,7 +4,7 @@ import Body from "../components/Body";
 import { useDarkMode } from "../context/DarkModeContext";
 
 
-export default function projects() {
+export default function Projects() {
 
     const { darkMode } = useDarkMode()
 
@@ -20,7 +20,7 @@ export default function projects() {
                     flex flex-col justify-between items-center dark:bg-gray-900`} >
 
                         <div className={`flex flex-col gap-1 sm:gap-5 lg:gap-2 xl:gap-5 pt-1 sm:pt-5 lg:pt-2 xl:pt-5 flex-1`}>
-                            <h1 className={`text-center text-2xl sm:text-3xl lg:text-2xl xl:text-3xl text-teal-500 font-medium`}>Portfólio</h1>
+                            <h1 className={`text-center text-2xl sm:text-3xl lg:text-2xl xl:text-3xl text-teal-500 font-medium`}>Portfolio</h1>
                             <div className={`flex flex-col justify-center px-5 sm:p-5 lg:p-2 xl:p-5 flex-1`}>
                                 <p className={`font-light`}><span className={`font-medium text-cyan-500`}>
                                     Main techs used:</span> NextJS, Typescript, TailwindCSS.
