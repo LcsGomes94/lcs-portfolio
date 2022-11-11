@@ -3,6 +3,8 @@ import Link from 'next/link'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 import Body from '../components/Body'
 
+import avatarIMG from '../../public/avatar.png'
+
 export default function Home() {
   return (
       <Body>
@@ -22,8 +24,8 @@ export default function Home() {
               <AiFillGithub />
             </Link>
           </div>
-          <div className={`bg-gradient-to-b from-cyan-500 to-transparent rounded-full overflow-hidden mt-7 h-[350px] w-[350px] relative`}>
-            <Image src={'/avatar.svg'} alt={''} layout='fill' objectFit='cover' />
+          <div className={`bg-gray-50 dark:bg-gray-800 rounded-full overflow-hidden mt-7 h-[350px] w-[350px] relative`}>
+            <Image src={avatarIMG} alt={''} layout='fill' objectFit='cover' placeholder="blur" />
           </div>
       </Body>
   )

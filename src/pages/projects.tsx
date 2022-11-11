@@ -3,6 +3,13 @@ import Link from "next/link";
 import Body from "../components/Body";
 import { useDarkMode } from "../context/DarkModeContext";
 
+import portfolioIMG from '../../public/portfolio.png'
+import portfolioDarkIMG from '../../public/portfolio-dark.png'
+import nextPokedexIMG from '../../public/next-pokedex.png'
+import nextPokedexDarkIMG from '../../public/next-pokedex-dark.png'
+import reactKanbanIMG from '../../public/react-kanban.png'
+import javascriptKanbanIMG from '../../public/javascript-kanban.png'
+
 
 export default function Projects() {
 
@@ -14,7 +21,7 @@ export default function Projects() {
 
                 <div className={`bg-gradient-to-br  from-cyan-500 via-cyan-200 to-teal-500 flex-1
                 basis-2/3 lg:basis-1/3 p-1 relative overflow-hidden group`}>
-                    <Image src={`${darkMode ? '/portfolio-dark.png' : '/portfolio.png'}`} layout='responsive' width={1920} height={1080} alt='' />
+                    <Image src={darkMode ? portfolioDarkIMG : portfolioIMG} alt='' />
                     <div className={`absolute bottom-0 top-1 left-1 right-1 bg-white
                     translate-y-full transition-transform duration-200 group-hover:bottom-1 group-hover:translate-y-0
                     flex flex-col justify-between items-center dark:bg-gray-900`} >
@@ -53,7 +60,7 @@ export default function Projects() {
 
                 <div className={`bg-gradient-to-br  from-cyan-500 via-cyan-200 to-teal-500 flex-1
                 basis-2/3 lg:basis-1/3 p-1 relative overflow-hidden group`}>
-                    <Image src={`${darkMode ? '/next-pokedex-dark.png' : '/next-pokedex.png'}`} layout='responsive' width={1920} height={1080} alt='' placeholder="blur" />
+                    <Image src={darkMode ? nextPokedexDarkIMG : nextPokedexIMG} alt='' placeholder="blur" />
                     <div className={`absolute bottom-0 top-1 left-1 right-1 bg-white
                     translate-y-full transition-transform duration-200 group-hover:bottom-1 group-hover:translate-y-0
                     flex flex-col justify-between items-center dark:bg-gray-900`} >
@@ -92,7 +99,7 @@ export default function Projects() {
 
                 <div className={`bg-gradient-to-br  from-cyan-500 via-cyan-200 to-teal-500 flex-1
                 basis-2/3 lg:basis-1/3 p-1 relative overflow-hidden group`}>
-                    <Image src='/react-kanban.png' layout='responsive' width={1920} height={1080} alt='' placeholder="blur" />
+                    <Image src={reactKanbanIMG} alt='' placeholder="blur" />
                     <div className={`absolute bottom-0 top-1 left-1 right-1 bg-white
                     translate-y-full transition-transform duration-200 group-hover:bottom-1 group-hover:translate-y-0
                     flex flex-col justify-between items-center dark:bg-gray-900`} >
@@ -131,7 +138,7 @@ export default function Projects() {
 
                 <div className={`bg-gradient-to-br  from-cyan-500 via-cyan-200 to-teal-500 flex-1
                 basis-2/3 lg:basis-1/3 p-1 relative overflow-hidden group`}>
-                    <Image src='/javascript-kanban.png' layout='responsive' width={1920} height={1080} alt='' placeholder="blur" />
+                    <Image src={javascriptKanbanIMG} alt='' placeholder="blur" />
                     <div className={`absolute bottom-0 top-1 left-1 right-1 bg-white
                     translate-y-full transition-transform duration-200 group-hover:bottom-1 group-hover:translate-y-0
                     flex flex-col justify-between items-center dark:bg-gray-900`} >
