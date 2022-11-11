@@ -23,7 +23,7 @@
   <li>Skills Page</li>
   <li>Projects Page</li>
   <li>Dark Mode Theme toggle</li>
-  <li>Resume button</li>
+  <li>Resume download buttom</li>
 </ul>
 <br>
 <br>
