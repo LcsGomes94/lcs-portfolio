@@ -37,10 +37,12 @@ export default function Header() {
                 <button onClick={handleDarkModeToggle}>
                     <BsFillMoonStarsFill className='text-3xl hover:opacity-60 dark:hover:opacity-80' />
                 </button>
-                <button className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white
-                    px-4 py-2 border-none rounded-md ml-8 hover:opacity-60 dark:hover:opacity-80`}>
-                    Currículo
-                </button>
+                <Link href={'https://drive.google.com/file/d/19jcgNujSlqXXGtTikFCDyx0_JL6DFX0y/view?usp=share_link'} target="_blank">
+                    <button className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white
+                        px-4 py-2 border-none rounded-md ml-8 hover:opacity-60 dark:hover:opacity-80`}>
+                        Currículo
+                    </button>
+                </Link>
             </div>
         </div>
     </header>
