@@ -28,7 +28,7 @@
 <br>
 <br>
 
-<strong>Try it yourself: [LcsGomes Portfolio](https://next-pokedex-rho.vercel.app)</strong>
+<strong>Try it yourself: [LcsGomes Portfolio](https://lcs-portfolio.vercel.app/)</strong>
 
 <hr>
 
