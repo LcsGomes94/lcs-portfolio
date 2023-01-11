@@ -9,6 +9,8 @@ import nextPokedexIMG from '../../public/next-pokedex.png'
 import nextPokedexDarkIMG from '../../public/next-pokedex-dark.png'
 import reactKanbanIMG from '../../public/react-kanban.png'
 import javascriptKanbanIMG from '../../public/javascript-kanban.png'
+import lcsanimelistIMG from '../../public/lcsanimelist.png'
+import lcsanimelistDarkIMG from '../../public/lcsanimelist-dark.png'
 
 
 export default function Projects() {
@@ -18,6 +20,45 @@ export default function Projects() {
     return (
         <Body>
             <div className="flex gap-10 flex-wrap">
+
+                <div className={`bg-gradient-to-br  from-cyan-500 via-cyan-200 to-teal-500 flex-1
+                basis-2/3 lg:basis-1/3 p-1 relative overflow-hidden group`}>
+                    <Image src={darkMode ? lcsanimelistDarkIMG : lcsanimelistIMG} alt='' />
+                    <div className={`absolute bottom-0 top-1 left-1 right-1 bg-white
+                    translate-y-full transition-transform duration-200 group-hover:bottom-1 group-hover:translate-y-0
+                    flex flex-col justify-between items-center dark:bg-gray-900`} >
+
+                        <div className={`flex flex-col gap-1 sm:gap-5 lg:gap-2 xl:gap-5 pt-1 sm:pt-5 lg:pt-2 xl:pt-5 flex-1`}>
+                            <h1 className={`text-center text-2xl sm:text-3xl lg:text-2xl xl:text-3xl text-teal-500 font-medium`}>LcsAnimeList</h1>
+                            <div className={`flex flex-col justify-center px-5 sm:p-5 lg:p-2 xl:p-5 flex-1`}>
+                                <p className={`font-light`}><span className={`font-medium text-cyan-500`}>
+                                    Main techs used:</span> NextJS, Typescript, TailwindCSS.
+                                </p>
+                                <p className={`hidden sm:inline font-light`}><span className={`font-medium text-cyan-500`}>
+                                    React/Next Hooks:</span> useState, useRef, useContext, useRouter...
+                                </p>
+                                <p className={`font-light`}><span className={`font-medium text-cyan-500`}>
+                                    Libraries used:</span> ReactQuery, NextAuth, Zod.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="flex gap-10 p-1 sm:p-5 lg:p-2 xl:p-5">
+                            <Link href={'/'} target="_blank" >
+                                <button className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white
+                                px-4 py-2 border-none rounded-md hover:opacity-60 dark:hover:opacity-80 w-28`}>
+                                    Live
+                                </button>
+                            </Link>
+                            <Link href={'https://github.com/LcsGomes94/lcs-portfolio'} target="_blank" >
+                                <button className={`bg-gradient-to-r from-cyan-500 to-teal-500 text-white
+                                px-4 py-2 border-none rounded-md hover:opacity-60 dark:hover:opacity-80 w-28`}>
+                                    GitHub
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+                </div>
 
                 <div className={`bg-gradient-to-br  from-cyan-500 via-cyan-200 to-teal-500 flex-1
                 basis-2/3 lg:basis-1/3 p-1 relative overflow-hidden group`}>
@@ -175,7 +216,9 @@ export default function Projects() {
                     </div>
                 </div>
 
+                <div className={`flex-1 basis-2/3 lg:basis-1/3`}></div>
+
             </div>
         </Body>
-  )
+    )
 }
