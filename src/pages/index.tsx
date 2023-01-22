@@ -14,7 +14,7 @@ export default function Home() {
         Apaixonado por soluções simples, eficientes e bem estruturadas.
       </p>
       <p className={`text-lg text-center font-light`}>
-        Há mais de 15 anos em contato ativo com programação.
+        Há aproximadamente 1 ano atuando como Desenvolvedor Front-End React.
       </p>
       <div className='flex justify-center gap-16 p-7 text-7xl text-gray-500 dark:text-gray-400'>
         <Link href={'https://www.linkedin.com/in/lcsdev94/'} target="_blank" className='hover:opacity-80' >
