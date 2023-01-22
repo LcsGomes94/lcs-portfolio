@@ -8,7 +8,7 @@ export function NextSkill() {
                         Main features I know:</span> Server Side Rendering(SSR), Static Site Generation(SSG), Next API, Next Page, Next Route, Next Link, Next Image...
                     </p>
                     <p className={`font-light`}><span className={`font-medium text-cyan-500`}>
-                        Projects using NextJS:</span> Portfolio, Pokédex. Check these websites I have built using NextJS at projects section.
+                        Projects using NextJS:</span> LcsAnimeList, Portfolio, Pokédex. Check these websites I have built using NextJS at projects section.
                     </p>
                 </div>
             </div>
@@ -26,7 +26,7 @@ export function ReactSkill() {
                         Main features I know:</span> SPA, Life Cycle, useEffect, useState, useContext, useRef, useCallback, useMemo, Custom Hooks, few extra React libraries...
                     </p>
                     <p className={`font-light`}><span className={`font-medium text-cyan-500`}>
-                        Projects using ReactJS:</span> React Kanban, Portfolio, Pokédex. Check these websites I have built using ReactJS at projects section.
+                        Projects using ReactJS:</span> LcsAnimeList, Portfolio, Pokédex, React Kanban. Check these websites I have built using ReactJS at projects section.
                     </p>
                 </div>
             </div>
@@ -44,7 +44,7 @@ export function TypescriptSkill() {
                         Main features I know:</span> type, interface, enum, Class...
                     </p>
                     <p className={`font-light`}><span className={`font-medium text-cyan-500`}>
-                        Projects using Typescript:</span> React Kanban, Portfolio, Pokédex. Check these websites I have built using Typescript at projects section.
+                        Projects using Typescript:</span> LcsAnimeList, Portfolio, Pokédex, React Kanban. Check these websites I have built using Typescript at projects section.
                     </p>
                 </div>
             </div>
@@ -62,7 +62,7 @@ export function TailwindSkill() {
                         Main features I know:</span> Dark Mode Theme toggle, screen responsivity, group modifier, custom classes, dynamic values...
                     </p>
                     <p className={`font-light`}><span className={`font-medium text-cyan-500`}>
-                        Projects using TailwindCSS:</span> Portfolio, Pokédex. Check these websites I have built using TailwindCSS at projects section.
+                        Projects using TailwindCSS:</span> LcsAnimeList, Portfolio, Pokédex. Check these websites I have built using TailwindCSS at projects section.
                     </p>
                 </div>
             </div>
