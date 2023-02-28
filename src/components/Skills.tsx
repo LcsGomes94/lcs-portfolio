@@ -151,7 +151,7 @@ export function DockerSkill() {
             <span className={`font-medium text-cyan-500`}>
               Main features I know:
             </span>{" "}
-            Images, Containers, Volumes, Bind Mount, Network, Compose...
+            Image, Container, Volume, Bind Mount, Network, Compose...
           </p>
           <p className={`font-light`}>
             <span className={`font-medium text-cyan-500`}>
