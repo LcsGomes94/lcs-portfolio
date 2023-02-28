@@ -5,7 +5,7 @@ import {
   SiReact,
   SiTypescript,
   SiTailwindcss,
-  SiStyledcomponents,
+  SiDocker,
   SiNestjs,
   SiPrisma,
   SiPostgresql,
@@ -17,7 +17,7 @@ import {
   NestSkill,
   NextSkill,
   ReactSkill,
-  StyledCompSkill,
+  DockerSkill,
   TailwindSkill,
   TypescriptSkill,
   PrismaSkill,
@@ -85,16 +85,6 @@ export default function Skills() {
             <SiTailwindcss />
           </button>
           <button
-            onClick={() => handleSelect("styledcomp")}
-            className={`${buttonClass} ${
-              selected === "styledcomp"
-                ? "text-cyan-500 dark:text-cyan-500 after:scale-x-100"
-                : ""
-            }`}
-          >
-            <SiStyledcomponents />
-          </button>
-          <button
             onClick={() => handleSelect("nest")}
             className={`${buttonClass} ${
               selected === "nest"
@@ -123,6 +113,16 @@ export default function Skills() {
             }`}
           >
             <SiPostgresql />
+          </button>
+          <button
+            onClick={() => handleSelect("docker")}
+            className={`${buttonClass} ${
+              selected === "docker"
+                ? "text-cyan-500 dark:text-cyan-500 after:scale-x-100"
+                : ""
+            }`}
+          >
+            <SiDocker />
           </button>
           <button
             onClick={() => handleSelect("git")}
@@ -165,8 +165,8 @@ export default function Skills() {
             <GitSkill />
           ) : selected === "tailwind" ? (
             <TailwindSkill />
-          ) : selected === "styledcomp" ? (
-            <StyledCompSkill />
+          ) : selected === "docker" ? (
+            <DockerSkill />
           ) : selected === "extra" ? (
             <ExtraSkill />
           ) : (

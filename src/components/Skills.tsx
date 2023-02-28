@@ -133,7 +133,7 @@ export function TailwindSkill() {
   );
 }
 
-export function StyledCompSkill() {
+export function DockerSkill() {
   return (
     <>
       <div
@@ -142,7 +142,7 @@ export function StyledCompSkill() {
         <h1
           className={`text-center text-4xl sm:text-5xl text-teal-500 font-medium`}
         >
-          Styled Components
+          Docker
         </h1>
         <div
           className={`flex flex-col justify-center pb-2 px-3 sm:p-3 lg:p-1 xl:p-3 flex-1 text-xl gap-5`}
@@ -151,14 +151,14 @@ export function StyledCompSkill() {
             <span className={`font-medium text-cyan-500`}>
               Main features I know:
             </span>{" "}
-            Nesting, custom attributes...
+            Images, Volumes, Containers, Compose...
           </p>
           <p className={`font-light`}>
             <span className={`font-medium text-cyan-500`}>
-              Projects using StyledComponents:
+              Projects using Docker:
             </span>{" "}
-            React Kanban. Check this website I have built using StyledComponents
-            at projects section.
+            TBA. Check this website I have built using Docker at projects
+            section.
           </p>
         </div>
       </div>
@@ -244,7 +244,7 @@ export function SQLSkill() {
         <h1
           className={`text-center text-4xl sm:text-5xl text-teal-500 font-medium`}
         >
-          SQL Database
+          SQL Databases
         </h1>
         <div
           className={`flex flex-col justify-center pb-2 px-3 sm:p-3 lg:p-1 xl:p-3 flex-1 text-xl gap-5`}
@@ -257,9 +257,9 @@ export function SQLSkill() {
           </p>
           <p className={`font-light`}>
             <span className={`font-medium text-cyan-500`}>
-              Projects using SQL Database:
+              Projects using SQL Databases:
             </span>{" "}
-            TBA. Check these websites I have built using SQL Database at
+            TBA. Check these websites I have built using SQL Databases at
             projects section.
           </p>
         </div>
@@ -318,7 +318,8 @@ export function ExtraSkill() {
         >
           <p className={`font-light`}>
             <span className={`font-medium text-cyan-500`}>More skills:</span>{" "}
-            Javascript, NodeJS, ReactQuery, NextAuth, Zod, Figma, Bootstrap...
+            StyledComponent, Javascript, NodeJS, ReactQuery, NextAuth, Zod,
+            Figma, Bootstrap...
           </p>
           <p className={`font-light`}>
             <span className={`font-medium text-cyan-500`}>Next Steps:</span>{" "}
