@@ -318,8 +318,8 @@ export function ExtraSkill() {
         >
           <p className={`font-light`}>
             <span className={`font-medium text-cyan-500`}>More skills:</span>{" "}
-            StyledComponent, Javascript, NodeJS, ReactQuery, NextAuth, Zod,
-            Figma, Bootstrap...
+            Redis, StyledComponent, Javascript, NodeJS, ReactQuery, NextAuth,
+            Zod, Kubernetes, Figma...
           </p>
           <p className={`font-light`}>
             <span className={`font-medium text-cyan-500`}>Next Steps:</span>{" "}
